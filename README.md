@@ -97,21 +97,15 @@ $$
 
 For example, room-temperature water at \(20^\circ\mathrm C\) is
 
-\[
-T_0 = 293.15\ \mathrm K,
-\]
+$$T_0 = 293.15\ \mathrm K,$$
 
 and a typical fridge at \(4^\circ\mathrm C\) is
 
-\[
-T_f = 277.15\ \mathrm K.
-\]
+$$T_f = 277.15\ \mathrm K.$$
 
 The freezing point of pure water is
 
-\[
-273.15\ \mathrm K.
-\]
+$$273.15\ \mathrm K.$$
 
 ---
 
@@ -119,7 +113,7 @@ The freezing point of pure water is
 
 In spherical symmetry, the heat equation is
 
-\[
+$$
 C(\rho)\frac{\partial \theta}{\partial t}
 =
 \frac{1}{\rho^2}
@@ -128,13 +122,11 @@ C(\rho)\frac{\partial \theta}{\partial t}
 k(\rho)\rho^2
 \frac{\partial \theta}{\partial \rho}
 \right],
-\]
+$$
 
 where
 
-\[
-C(\rho)=\rho_m(\rho)c_m(\rho)
-\]
+$$C(\rho)=\rho_m(\rho)c_m(\rho)$$
 
 is volumetric heat capacity.
 
