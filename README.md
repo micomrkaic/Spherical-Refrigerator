@@ -20,57 +20,41 @@ The Robin model is usually the more realistic approximation for an actual fridge
 
 ## 1. Geometry
 
-Let \(\rho\) denote radial position.
+Let $\rho$ denote radial position.
 
 The water radius is
 
-\[
-r.
-\]
+$$r.$
 
 The glass thickness is
 
-\[
-d.
-\]
+$$d.$
 
 The outer glass radius is
 
-\[
-b = r+d.
-\]
+$$b = r+d.$$
 
 The fridge-wall radius used in the stagnant-air model is
 
-\[
-R.
-\]
+$$R.$$
 
 The regions are:
 
-\[
-0 < \rho < r
-\]
+$$0 < \rho < r$$
 
 for water,
 
-\[
-r < \rho < b
-\]
+$$r < \rho < b$$
 
 for glass, and, in the stagnant-air model only,
 
-\[
-b < \rho < R
-\]
+$$b < \rho < R$
 
 for fridge air.
 
 We assume
 
-\[
-R>b.
-\]
+$$R>b.$$
 
 ---
 
@@ -78,51 +62,38 @@ R>b.
 
 Let
 
-\[
-T(\rho,t)
-\]
+$$T(\rho,t)$$
 
 be temperature.
 
 The initial water temperature is
 
-\[
-T_0.
-\]
+$$T_0.$
 
 The fridge bulk temperature is
 
-\[
-T_f.
-\]
+$$T_f.$$
 
 Usually,
 
-\[
-T_0 > T_f.
-\]
+$$T_0 > T_f.$$
 
 It is convenient to define excess temperature:
 
-\[
-\theta(\rho,t)=T(\rho,t)-T_f.
-\]
+$$\theta(\rho,t)=T(\rho,t)-T_f.$$
 
 Then the final equilibrium is
 
-\[
-\theta(\rho,\infty)=0.
-\]
+$$\theta(\rho,\infty)=0.$$
 
 The initial condition is
 
-\[
-\theta(\rho,0)=
+$$\theta(\rho,0)=
 \begin{cases}
 T_0-T_f, & 0<\rho<r,\\
 0, & r<\rho.
 \end{cases}
-\]
+$$
 
 For example, room-temperature water at \(20^\circ\mathrm C\) is
 
