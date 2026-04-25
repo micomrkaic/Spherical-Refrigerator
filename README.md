@@ -4,9 +4,7 @@ This project solves transient heat transfer for a spherical glass container fill
 
 The key point is that the **water is not lumped**. The model allows the water temperature to vary with radius:
 
-\[
-T_w = T_w(\rho,t).
-\]
+$$T_w = T_w(\rho,t).$$
 
 Two exterior models are compared:
 
